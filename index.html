@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+  <figure>
+    <!-- decoration bg -->
+  </figure>
+  <section>
+    <!-- header -->
+    <header>
+      <div class="topic">Simple, traffic-based pricing</div>
+      <div class="topic-desc">Sign-up for our 30-day trial. No credit card required. </div>
+    </header>
+        
+    <!-- main -->
+    <main>
+      <div class="card">
+
+        <!-- Upper -->
+        <div class="upper">
+          <!-- row 1 -->
+          <div class="row1">
+            <div class="pageview">100K Pageviews</div>
+            <div class="pricemonth">
+              <span>$16.00</span> 
+               / month
+            </div>
+          </div>
+          <!-- row 2 -->
+          <div class="row2">
+            <input type="range" name="price" id="price" min="1" max="30" class="range">
+          </div>
+          <!-- row 3 -->
+          <div class="row3">
+            <div class="lbl_monthlybill">Monthly Billing</div>
+            <div class="togglesw">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="lbl_yearlybill">Yearly Billing</div>
+            <div class="lbl_discount">25% discount</div>
+          </div> 
+        </div> 
+        
+        <!-- Lower -->
+        <div class="lower">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Kittiphat Pisuittiporn</a>.
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
